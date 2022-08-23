@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 export default function Portfolio() {
   return (
     <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -33,6 +34,10 @@ export default function Portfolio() {
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <a class="btn btn-outline-dark btn-floating m-1" href="https://github.com/oconnorjohnson/cream-finder" role="button"
+        ><i class="fab fa-github"></i></a>
+        <a class="btn btn-outline-dark btn-floating m-1" href="https://enthousiaste-monsieur-80020.herokuapp.com/" role="button"
+        ><iconify-icon inline icon="simple-icons:heroku"></iconify-icon></a>
       </div>
     </div>
   </div>
