@@ -5,3 +5,7 @@ p {
 h1 {
     color:aliceblue;
 }
+
+.nav.nav-tabs li a {
+  color:aliceblue
+}
