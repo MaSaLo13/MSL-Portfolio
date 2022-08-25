@@ -6,6 +6,7 @@ import '../../src/App.css';
 export default function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
+      <li className="navbar-brand">Marvin Santiago Lopez</li>
       <li className="nav-item">
         <a
           href="#home"
