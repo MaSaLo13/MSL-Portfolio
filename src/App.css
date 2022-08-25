@@ -7,22 +7,35 @@ body {
 .nav-item {
   background-color: #9381FF;
   margin-left: 100px;
+  border-top: 50px;
+  border-color: aliceblue;
 }
+
+.nav.nav-tabs li a:hover {
+  color: black;
+}
+
+
 .navbar-brand {
   margin-left: 20px;
 }
+
+li.navbar-brand {
+  color: aliceblue;
+}
+
 
 /*navbar*/
 .nav.nav-tabs {
   margin-bottom: 20px;
   background-color: #9381FF;
-  border-top: 50px;
-  border-color: aliceblue;
 }
 
 /*navbar text ex: About*/
 .nav.nav-tabs li a {
-  color:aliceblue
+  color:aliceblue;
+  border-color: whitesmoke;
+  border-width: 1px;
 }
 
 
