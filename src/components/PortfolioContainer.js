@@ -3,7 +3,6 @@ import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
-import Contact from './pages/Contact';
 import Footer from './Footer';
 import Resume from './pages/Resume';
 
@@ -21,9 +20,6 @@ export default function ProjectsContainer() {
     if (currentPage === 'Projects') {
       return <Projects />;
     }
-    if (currentPage === 'Contact') {
-      return <Contact />;
-      }
       if (currentPage === 'Resume') {
         return <Resume />;
         }
