@@ -29,6 +29,9 @@ h1 {
 
 .btn{
 
-  background-color: var(--btn-color) !important;
-  font-weight: 900;
+  transform-style: transperent;
+}
+
+.button {
+  color: black;
 }

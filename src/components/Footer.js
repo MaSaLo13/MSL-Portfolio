@@ -8,10 +8,10 @@ export default function Footer() {
   <div className="container p-4 pb-0">
 
     <section className="mb-4">
-      <a className="btn btn-outline-light btn-floating m-1" href="https://linkedin.com/in/marvin-santiagolopez" role="button"
+      <a className="footerbtn" href="https://linkedin.com/in/marvin-santiagolopez" role="button"
         ><i className="fab fa-linkedin-in"></i></a>
 
-      <a className="btn btn-outline-light btn-floating m-1" href="https://github.com/MaSaLo13" role="button"
+      <a className="footerbtn" href="https://github.com/MaSaLo13" role="button"
         ><i className="fab fa-github"></i></a>
     </section>
   </div>
