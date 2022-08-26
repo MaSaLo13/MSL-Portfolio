@@ -17,21 +17,21 @@ h1 {
   color:black;
 }
 
-.fab{
-  font-size: 2.1rem;
-  color: var(--btn-color) !important;
-}
-
-.icon{
-  font-size: 2.1rem;
-  color: var(--btn-color) !important;
-}
-
-.btn{
-
-  transform-style: transperent;
-}
-
 .button {
+  font-size: 2.1rem;
   color: black;
+}
+
+.button2 {
+  font-size: 2.1rem;
+  color: black;
+  margin-left: 20px;
+}
+
+.button:hover {
+  color: #9381FF;
+}
+
+.button2:hover {
+  color: #9381FF;
 }

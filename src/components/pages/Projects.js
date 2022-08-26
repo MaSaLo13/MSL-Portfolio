@@ -16,7 +16,7 @@ export default function Projects() {
         </p>
         <a className="button" href="https://github.com/MaSaLo13/Weather-Dash" role="button"
         ><i className="fab fa-github"></i></a>
-        <a className="button" href="https://masalo13.github.io/Weather-Dash/" role="button"
+        <a className="button2" href="https://masalo13.github.io/Weather-Dash/" role="button"
         ><iconify-icon inline icon="simple-icons:heroku" class="icon"></iconify-icon></a>
       </div>
     </div>
@@ -32,7 +32,7 @@ export default function Projects() {
         </p>
         <a className="button" href="https://github.com/GSiggins/ingredients" role="button"
         ><i className="fab fa-github"></i></a>
-        <a className="button" href="https://gsiggins.github.io/ingredients/" role="button"
+        <a className="button2" href="https://gsiggins.github.io/ingredients/" role="button"
         ><iconify-icon icon="simple-icons:githubpages" class="icon"></iconify-icon></a>
       </div>
     </div>
@@ -45,7 +45,7 @@ export default function Projects() {
         <p className="card-text">Cream Finder is a web-based full-stack application which accepts ice cream truck driver routes and displays locations for ice cream enthusiasts. If you are an ice cream truck driver, you will be able to add your stops so that customers will be able to find you. If you are an ice cream enthusiast then you will be able to look at where they stop.</p>
         <a className="button" href="https://github.com/oconnorjohnson/cream-finder" role="button"
         ><i className="fab fa-github"></i></a>
-        <a className="button" href="https://enthousiaste-monsieur-80020.herokuapp.com/" role="button"
+        <a className="button2" href="https://enthousiaste-monsieur-80020.herokuapp.com/" role="button"
         ><iconify-icon inline icon="simple-icons:heroku" class="icon"></iconify-icon></a>
       </div>
     </div>

@@ -11,7 +11,7 @@ export default function Footer() {
       <a className="footerbtn" href="https://linkedin.com/in/marvin-santiagolopez" role="button"
         ><i className="fab fa-linkedin-in"></i></a>
 
-      <a className="footerbtn" href="https://github.com/MaSaLo13" role="button"
+      <a className="footerbtn2" href="https://github.com/MaSaLo13" role="button"
         ><i className="fab fa-github"></i></a>
     </section>
   </div>

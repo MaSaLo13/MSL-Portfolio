@@ -25,6 +25,7 @@ li.navbar-brand {
   background-color: #9381FF;
 }
 
+
 /*navbar text ex: About*/
 .nav.nav-tabs li a {
   color:aliceblue;
@@ -33,7 +34,7 @@ li.navbar-brand {
 }
 
 .nav.nav-tabs li a:hover {
-  color: black;
+  color: #9381FF;
 }
 
 
@@ -45,5 +46,20 @@ li.navbar-brand {
 }
 
 .footerbtn {
+  font-size: 2.1rem;
   color: aliceblue;
+}
+
+.footerbtn2 {
+  font-size: 2.1rem;
+  color: aliceblue;
+  margin-left: 20px;
+}
+
+.footerbtn:hover {
+  color: #131313;
+}
+
+.footerbtn2:hover {
+  color: #131313;
 }
