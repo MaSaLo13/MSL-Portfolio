@@ -29,11 +29,15 @@ li.navbar-brand {
 /*navbar text ex: About*/
 .nav.nav-tabs li a {
   color:aliceblue;
-  border-color: whitesmoke;
+  border-color: aliceblue;
   border-width: 1px;
 }
 
 .nav.nav-tabs li a:hover {
+  color: #9381FF;
+}
+
+.nav.nav-tabs li a.nav-link.active {
   color: #9381FF;
 }
 
