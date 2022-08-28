@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
 
+
 export default function About() {
-  return (
+  return ( <>
     <div>
       <h1>About Me</h1>
       <p>
@@ -10,5 +11,6 @@ export default function About() {
 
       </p>
     </div>
+    </>
   );
 }

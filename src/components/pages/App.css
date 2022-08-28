@@ -14,17 +14,19 @@ h1 {
 
 
 .card-text {
-  color:black;
+  color:#131313;
 }
 
 .button {
   font-size: 2.1rem;
-  color: black;
+  color: #131313;
 }
+
+/*might change buttons to icon*/
 
 .button2 {
   font-size: 2.1rem;
-  color: black;
+  color: #131313;
   margin-left: 20px;
 }
 
