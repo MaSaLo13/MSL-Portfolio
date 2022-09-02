@@ -37,3 +37,9 @@ h1 {
 .button2:hover {
   color: #9381FF;
 }
+
+/*about*/
+
+.containers {
+  background-color: aliceblue;
+}
