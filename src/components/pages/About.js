@@ -10,6 +10,7 @@ export default function About() {
 <Container>
 <Row xs={1} md={2}>
   <Col>
+  <img src={require("../img/me.JPG")} className="card-img-top" alt="Me"/>
   </Col>
   <Col>
   <p>
