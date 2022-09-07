@@ -8,7 +8,7 @@ body {
   background-color: #9381FF;
   margin-left: 100px;
   border-top: 50px;
-  border-color: aliceblue;
+  border-color: #FFFFFF;
 }
 
 .navbar-brand {
@@ -16,7 +16,7 @@ body {
 }
 
 li.navbar-brand {
-  color: aliceblue;
+  color: #FFFFFF;
 }
 
 /*navbar*/
@@ -28,8 +28,8 @@ li.navbar-brand {
 
 /*navbar text ex: About*/
 .nav.nav-tabs li a {
-  color:aliceblue;
-  border-color: aliceblue;
+  color:#FFFFFF;
+  border-color: #FFFFFF;
   border-width: 1px;
 }
 
@@ -51,12 +51,12 @@ li.navbar-brand {
 
 .footerbtn {
   font-size: 2.1rem;
-  color: aliceblue;
+  color: #FFFFFF;
 }
 
 .footerbtn2 {
   font-size: 2.1rem;
-  color: aliceblue;
+  color: #FFFFFF;
   margin-left: 20px;
 }
 
