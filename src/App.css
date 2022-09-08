@@ -4,6 +4,15 @@ body {
 
 /* Navbar */
 
+
+.navbar {
+  background-color: #9381FF;
+}
+
+.navbar-nav {
+  background-color: #9381FF;
+}
+
 .nav-item {
   background-color: #9381FF;
   margin-left: 100px;
@@ -19,6 +28,10 @@ li.navbar-brand {
   color: #FFFFFF;
 }
 
+nav.navbar.navbar-nav {
+  background-color: #9381FF;
+}
+
 /*navbar*/
 .nav.nav-tabs {
   margin-bottom: 20px;
@@ -27,7 +40,7 @@ li.navbar-brand {
 
 
 /*navbar text ex: About*/
-.nav.nav-tabs li a {
+.navbar-nav li a {
   color:#FFFFFF;
   border-color: #FFFFFF;
   border-width: 1px;
