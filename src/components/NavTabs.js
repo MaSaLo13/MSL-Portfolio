@@ -4,19 +4,43 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import '../../src/App.css';
 
-// Here we are using object destructuring assignment to pluck off our variables from the props object
-// We assign them to their own variable names
-export default function NavTabs() {
+
+export default function NavTabs({ currentPage, handlePageChange }) {
   return (
 
-<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <Navbar.Brand href="#about">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#resume">Resume</Nav.Link>
+            <li className="nav-item">
+              <a
+                href="#about"
+                onClick={() => handlePageChange('About')}
+                className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+              >
+                About Me
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                href="#projects"
+                onClick={() => handlePageChange('Projects')}
+                className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
+              >
+                Projects
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                href="#resume"
+                onClick={() => handlePageChange('Resume')}
+                className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+              >
+                Resume
+              </a>
+            </li>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -27,7 +51,7 @@ export default function NavTabs() {
 
 
 
-   
+
   );
 }
 
