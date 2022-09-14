@@ -8,10 +8,10 @@ import '../../src/App.css';
 export default function NavTabs({ currentPage, handlePageChange }) {
   return (
 
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" variant="dark">
       <Container>
-        <Navbar.Brand href="#about">React-Bootstrap</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Brand href="#about">Marvin Santiago Lopez</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav"> <iconify-icon icon="akar-icons:three-line-horizontal"></iconify-icon> </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <li className="nav-item">

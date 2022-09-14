@@ -7,36 +7,35 @@ body {
 
 .navbar {
   background-color: #9381FF;
+  margin-bottom: 10px;
 }
 
-.navbar-nav {
+/* .navbar-nav {
   background-color: #9381FF;
-}
+} */
 
 .nav-item {
-  background-color: #9381FF;
+  /* background-color: #9381FF; */
   margin-left: 100px;
   border-top: 50px;
   border-color: #FFFFFF;
 }
 
-.navbar-brand {
-  margin-left: 20px;
+.me-auto.navbar-nav.nav-item a {
+  border-color: #FFFFFF;
+  border-width: 5px;
 }
 
-li.navbar-brand {
-  color: #FFFFFF;
-}
 
-nav.navbar.navbar-nav {
+/* nav.navbar.navbar-nav {
   background-color: #9381FF;
-}
+} */
 
 /*navbar*/
-.nav.nav-tabs {
+/* .nav.nav-tabs {
   margin-bottom: 20px;
   background-color: #9381FF;
-}
+} */
 
 
 /*navbar text ex: About*/
