@@ -1,13 +1,14 @@
 import React from 'react';
+import "./App.css"
 
 
 export default function Skills() {
   return (
     <section className="skill-section px-5" id="skill">
-    <div className="containers py-5">
+    <div className="containers2 py-5">
         <h4 >Skills </h4> 
         <div className="row py-5">
-            <div className="col-md-5 d-flex justify-content-around py-2 flex-wrap">
+            <div className="col-md-5 d-flex justify-content-around py-2 flex-wrap text-light">
                 <h3><iconify-icon icon="akar-icons:html-fill"></iconify-icon></h3>
                 <h3><iconify-icon icon="akar-icons:css-fill"></iconify-icon></h3>
                 <h3><iconify-icon icon="akar-icons:bootstrap-fill"></iconify-icon></h3>
@@ -19,7 +20,7 @@ export default function Skills() {
             </div>
         </div>         
 
-        <div className="row py-4">
+        <div className="row py-4 text-light">
             <div className="col-md-5 d-flex justify-content-evenly p-2 flex-wrap">
             <h3><iconify-icon icon="file-icons:sequelize"></iconify-icon></h3>
                 <h3><iconify-icon icon="logos:express"></iconify-icon></h3>

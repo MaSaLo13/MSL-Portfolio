@@ -16,7 +16,7 @@ export default function About() {
           <Image
             src={require("../img/me.JPG")}
             roundedCircle
-            width="300vw"
+            width="350vw"
             height="300vw"/>
         </Col>
         <Col className="pl-md-5">

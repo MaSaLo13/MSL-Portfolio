@@ -39,7 +39,7 @@ export default function Projects() {
             </Card.Text>
             <a className="button" href="https://github.com/GSiggins/ingredients" role="button"
             ><i className="fab fa-github"></i></a>
-            <a className="button2" href="https://gsiggins.github.io/ingredients/" role="button"
+            <a className="buttong" href="https://gsiggins.github.io/ingredients/" role="button"
             ><iconify-icon icon="simple-icons:githubpages" class="icon"></iconify-icon></a>
           </Card.Body>
         </Card>
