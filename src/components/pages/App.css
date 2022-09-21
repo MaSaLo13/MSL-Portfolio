@@ -13,6 +13,9 @@ h1 {
   color:#FFFFFF;
 }
 
+.projects {
+  margin-bottom: 20px;
+}
 
 /*cards in projects*/
 .card-body {
