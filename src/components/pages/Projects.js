@@ -106,7 +106,7 @@ export default function Projects() {
       </Col>
       <Col className="projects">
         <Card>
-          <Card.Img variant="top" src="https://user-images.githubusercontent.com/105378752/184068183-30f719fc-63e9-478a-bdc2-6b0f43895cff.png" />
+          <Card.Img variant="top" src="https://github.com/MaSaLo13/team-buildgen/raw/main/Develop/dist/team.png" />
           <Card.Body>
             <Card.Title>Team Profile Generator</Card.Title>
             <Card.Text>
@@ -123,14 +123,35 @@ export default function Projects() {
       </Col>
       <Col className="projects">
         <Card>
-          <Card.Img variant="top" src="https://user-images.githubusercontent.com/105378752/184068183-30f719fc-63e9-478a-bdc2-6b0f43895cff.png" />
+          <Card.Img variant="top" src="https://github.com/MaSaLo13/ReadMe-Gen/raw/main/Develop/genread.png" />
           <Card.Body>
-            <Card.Title>Plenty of Hanks</Card.Title>
+            <Card.Title>ReadMe Generator</Card.Title>
             <Card.Text>
               This is a longer card with supporting text below as a natural
               lead-in to additional content. This content is a little bit
               longer.
             </Card.Text>
+            <a className="button" href="https://github.com/MaSaLo13/ReadMe-Gen" role="button"
+            ><i className="fab fa-github"></i></a>
+            <a className="button2" href="https://drive.google.com/file/d/1IyvZgvq4_2nMatbbLMTh2WhB82XPQzgw/view" role="button"
+            ><iconify-icon inline icon="akar-icons:video" class="icon"></iconify-icon></a>
+          </Card.Body>
+        </Card>
+      </Col>
+      <Col className="projects">
+        <Card>
+          <Card.Img variant="top" src="https://github.com/MaSaLo13/ReadMe-Gen/raw/main/Develop/genread.png" />
+          <Card.Body>
+            <Card.Title>ReadMe Generator</Card.Title>
+            <Card.Text>
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </Card.Text>
+            <a className="button" href="https://github.com/MaSaLo13/ReadMe-Gen" role="button"
+            ><i className="fab fa-github"></i></a>
+            <a className="button2" href="https://drive.google.com/file/d/1IyvZgvq4_2nMatbbLMTh2WhB82XPQzgw/view" role="button"
+            ><iconify-icon inline icon="akar-icons:video" class="icon"></iconify-icon></a>
           </Card.Body>
         </Card>
       </Col>

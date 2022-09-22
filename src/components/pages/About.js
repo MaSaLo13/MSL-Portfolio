@@ -14,7 +14,7 @@ export default function About() {
       <Row>
         <Col sm={12} md={6}lg={4} className="justify-content-center">
           <Image
-            src={require("../img/me.JPG")}
+            src={require("../img/me2.jpg")}
             roundedCircle
             width="350vw"
             height="300vw"/>
