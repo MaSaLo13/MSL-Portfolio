@@ -71,16 +71,16 @@ export default function Projects() {
         </Card>
       </Col>
     
-     <Col lg={3}><h1>Mini Projects</h1></Col>
      </Row>
-     <Row>
+     <Col><h1>Mini Projects</h1></Col>
+     <Row xs={1} lg={4}>
      <Col className="projects">
         <Card>
           <Card.Img variant="top" src="https://github.com/MaSaLo13/note-takerexp/raw/main/assets/notetaker.png" />
           <Card.Body>
             <Card.Title>Note-TakerExp</Card.Title>
             <Card.Text>
-            Note-TakerExp is an application that is used to create, save and delete notes.
+            This application uses an Express.js back end and will save and retrieve note data from a JSON file.
             </Card.Text>
             <a className="button" href="https://github.com/MaSaLo13/note-takerexp" role="button"
             ><i className="fab fa-github"></i></a>
@@ -91,7 +91,7 @@ export default function Projects() {
       </Col>
       <Col className="projects">
         <Card>
-          <Card.Img variant="top" src="https://github.com/MaSaLo13/Day-Scheduler/raw/main/Assets/DayScheduler.png" />
+          <Card.Img variant="top" src="https://github.com/MaSaLo13/Day-Scheduler/raw/main/Assets/DayScheduler.png"/>
           <Card.Body>
             <Card.Title>Day-Scheduler</Card.Title>
             <Card.Text>
@@ -110,9 +110,7 @@ export default function Projects() {
           <Card.Body>
             <Card.Title>Team Profile Generator</Card.Title>
             <Card.Text>
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+            A Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
             </Card.Text>
             <a className="button" href="https://github.com/MaSaLo13/team-buildgen" role="button"
             ><i className="fab fa-github"></i></a>
@@ -127,9 +125,7 @@ export default function Projects() {
           <Card.Body>
             <Card.Title>ReadMe Generator</Card.Title>
             <Card.Text>
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+           A command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
             </Card.Text>
             <a className="button" href="https://github.com/MaSaLo13/ReadMe-Gen" role="button"
             ><i className="fab fa-github"></i></a>
@@ -138,23 +134,7 @@ export default function Projects() {
           </Card.Body>
         </Card>
       </Col>
-      <Col className="projects">
-        <Card>
-          <Card.Img variant="top" src="https://github.com/MaSaLo13/ReadMe-Gen/raw/main/Develop/genread.png" />
-          <Card.Body>
-            <Card.Title>ReadMe Generator</Card.Title>
-            <Card.Text>
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </Card.Text>
-            <a className="button" href="https://github.com/MaSaLo13/ReadMe-Gen" role="button"
-            ><i className="fab fa-github"></i></a>
-            <a className="button2" href="https://drive.google.com/file/d/1IyvZgvq4_2nMatbbLMTh2WhB82XPQzgw/view" role="button"
-            ><iconify-icon inline icon="akar-icons:video" class="icon"></iconify-icon></a>
-          </Card.Body>
-        </Card>
-      </Col>
+  
    
     </Row>
 
