@@ -42,11 +42,17 @@ h1 {
   margin-left: 20px;
 }
 
+
 .buttong {
   font-size: 4.2rem;
   color: #131313;
   margin-left: 20px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+}
+
+
+.buttong:hover {
+  color: #9381FF;
 }
 
 

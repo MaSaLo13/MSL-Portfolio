@@ -63,9 +63,7 @@ export default function Projects() {
           <Card.Body>
             <Card.Title>Plenty of Hanks</Card.Title>
             <Card.Text>
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+            Plenty-of-Hanks is a full stack MERN application. It is an online dating app where you will meet the love of your life or a new friend. In Plenty-of-Hanks, you the user will choose your top 5 Tom Hanks movies from a selection of 20 Tom Hanks movies. When you are done, we will match you with another person with similar taste in Tom Hanks movies.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -95,11 +93,11 @@ export default function Projects() {
           <Card.Body>
             <Card.Title>Day-Scheduler</Card.Title>
             <Card.Text>
-           A simple calendar application that allows a user to save events for each hour of the day.
+           A simple calendar application that allows a user to save events for each hour of the day. This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.
             </Card.Text>
             <a className="button" href="https://github.com/MaSaLo13/Day-Scheduler" role="button"
             ><i className="fab fa-github"></i></a>
-            <a className="button2" href="https://masalo13.github.io/Day-Scheduler/" role="button"
+            <a className="buttong" href="https://masalo13.github.io/Day-Scheduler/" role="button"
             ><iconify-icon inline icon="simple-icons:githubpages" class="icon"></iconify-icon></a>
           </Card.Body>
         </Card>
