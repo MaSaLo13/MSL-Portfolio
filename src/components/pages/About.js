@@ -12,7 +12,7 @@ export default function About() {
    
     <Container>
       <Row>
-        <Col sm={12} md={6}lg={4} className="justify-content-center">
+        <Col>
           <Image
             src={require("../img/me2.jpg")}
             roundedCircle
