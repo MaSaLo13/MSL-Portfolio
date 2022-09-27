@@ -19,7 +19,7 @@ export default function About() {
             width="350vw"
             height="300vw"/>
         </Col>
-        <Col className="pl-md-5">
+        <Col>
             <h1 className="display-4 text-center text-lg-left text-light p-0-lg pt-4">
               Hello!</h1>
             <p className="text-light text-center text-md-left h3">
