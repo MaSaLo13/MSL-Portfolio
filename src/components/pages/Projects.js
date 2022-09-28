@@ -10,7 +10,36 @@ export default function Projects() {
   return (
     <Container>
     <Row xs={1} md={2} className="g-4">
-
+    <Col className="projects">
+        <Card>
+          <Card.Img variant="top" src="https://github.com/GSiggins/ingredients/raw/main/assets/images/landing.png" />
+          <Card.Body>
+            <Card.Title>Chef Buddy</Card.Title>
+            <Card.Text>
+              Chef Buddy is a front-end application that uses two API's from API-Ninjas to help the user find recipes that contain their nutritional information. The user will type into the searchbar what kind of food they are looking for, and it will return various recipes.
+            </Card.Text>
+            <a className="button" href="https://github.com/GSiggins/ingredients" role="button"
+            ><i className="fab fa-github"></i></a>
+            <a className="buttong" href="https://gsiggins.github.io/ingredients/" role="button"
+            ><iconify-icon icon="simple-icons:githubpages" class="icon"></iconify-icon></a>
+          </Card.Body>
+        </Card>
+      </Col>
+      <Col className="projects">
+        <Card>
+          <Card.Img variant="top" src="https://github.com/MaSaLo13/Weather-Dash/raw/main/assets/img/first.png" />
+          <Card.Body>
+            <Card.Title>Weather-Dash</Card.Title>
+            <Card.Text>
+            Weather-Dash runs in the browser and features dynamically updated HTML and CSS.
+            </Card.Text>
+            <a className="button" href="https://github.com/MaSaLo13/Weather-Dash" role="button"
+            ><i className="fab fa-github"></i></a>
+            <a className="button2" href="https://masalo13.github.io/Weather-Dash/" role="button"
+            ><iconify-icon inline icon="simple-icons:heroku" class="icon"></iconify-icon></a>
+          </Card.Body>
+        </Card>
+      </Col>
       <Col className="projects">
       <Card>
           <Card.Img variant="top" src="https://github.com/oconnorjohnson/cream-finder/raw/main/public/images/logo.png" />
@@ -28,43 +57,16 @@ export default function Projects() {
       </Col>
       <Col className="projects">
         <Card>
-          <Card.Img variant="top" src="https://github.com/GSiggins/ingredients/raw/main/assets/images/landing.png" />
-          <Card.Body>
-            <Card.Title>Chef Buddy</Card.Title>
-            <Card.Text>
-              Chef Buddy will help 
-            </Card.Text>
-            <a className="button" href="https://github.com/GSiggins/ingredients" role="button"
-            ><i className="fab fa-github"></i></a>
-            <a className="buttong" href="https://gsiggins.github.io/ingredients/" role="button"
-            ><iconify-icon icon="simple-icons:githubpages" class="icon"></iconify-icon></a>
-          </Card.Body>
-        </Card>
-      </Col>
-      <Col className="projects">
-     
-        <Card>
-          <Card.Img variant="top" src="https://github.com/MaSaLo13/Weather-Dash/raw/main/assets/img/first.png" />
-          <Card.Body>
-            <Card.Title>Weather-Dash</Card.Title>
-            <Card.Text>
-            Built a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
-            </Card.Text>
-            <a className="button" href="https://github.com/MaSaLo13/Weather-Dash" role="button"
-            ><i className="fab fa-github"></i></a>
-            <a className="button2" href="https://masalo13.github.io/Weather-Dash/" role="button"
-            ><iconify-icon inline icon="simple-icons:heroku" class="icon"></iconify-icon></a>
-          </Card.Body>
-        </Card>
-      </Col>
-      <Col className="projects">
-        <Card>
           <Card.Img variant="top" src="https://user-images.githubusercontent.com/105378752/184068183-30f719fc-63e9-478a-bdc2-6b0f43895cff.png" />
           <Card.Body>
             <Card.Title>Plenty of Hanks</Card.Title>
             <Card.Text>
             Plenty-of-Hanks is a full stack MERN application. It is an online dating app where you will meet the love of your life or a new friend. In Plenty-of-Hanks, you the user will choose your top 5 Tom Hanks movies from a selection of 20 Tom Hanks movies. When you are done, we will match you with another person with similar taste in Tom Hanks movies.
             </Card.Text>
+            <a className="button" href="https://github.com/puppetup/plenty-of-hanks" role="button"
+            ><i className="fab fa-github"></i></a>
+            <a className="button2" href="https://afternoon-cliffs-40393.herokuapp.com/" role="button"
+            ><iconify-icon inline icon="simple-icons:heroku" class="icon"></iconify-icon></a>
           </Card.Body>
         </Card>
       </Col>
