@@ -11,8 +11,8 @@ export default function Projects() {
     <Container>
     <Row xs={1} md={2} className="g-4">
     <Col className="projects">
-        <Card>
-          <Card.Img variant="top" src="https://github.com/GSiggins/ingredients/raw/main/assets/images/landing.png" />
+        <Card className="project-card">
+          <Card.Img className="project-img" variant="top" src="https://github.com/GSiggins/ingredients/raw/main/assets/images/landing.png" />
           <Card.Body>
             <Card.Title>Chef Buddy</Card.Title>
             <Card.Text>
@@ -26,8 +26,8 @@ export default function Projects() {
         </Card>
       </Col>
       <Col className="projects">
-        <Card>
-          <Card.Img variant="top" src="https://github.com/MaSaLo13/Weather-Dash/raw/main/assets/img/first.png" />
+        <Card className="project-card">
+          <Card.Img className="project-img" variant="top" src="https://github.com/MaSaLo13/Weather-Dash/raw/main/assets/img/first.png" />
           <Card.Body>
             <Card.Title>Weather-Dash</Card.Title>
             <Card.Text>
@@ -41,8 +41,8 @@ export default function Projects() {
         </Card>
       </Col>
       <Col className="projects">
-      <Card>
-          <Card.Img variant="top" src="https://github.com/oconnorjohnson/cream-finder/raw/main/public/images/logo.png" />
+      <Card className="project-card">
+          <Card.Img className="project-img" variant="top" src="https://github.com/oconnorjohnson/cream-finder/raw/main/public/images/logo.png" />
           <Card.Body>
             <Card.Title>Cream Finder</Card.Title>
             <Card.Text>
@@ -56,8 +56,8 @@ export default function Projects() {
         </Card>
       </Col>
       <Col className="projects">
-        <Card>
-          <Card.Img variant="top" src="https://user-images.githubusercontent.com/105378752/184068183-30f719fc-63e9-478a-bdc2-6b0f43895cff.png" />
+        <Card className="project-card">
+          <Card.Img className="project-img" variant="top" src="https://user-images.githubusercontent.com/105378752/184068183-30f719fc-63e9-478a-bdc2-6b0f43895cff.png" />
           <Card.Body>
             <Card.Title>Plenty of Hanks</Card.Title>
             <Card.Text>
