@@ -5,7 +5,7 @@ import "./App.css"
 export default function Skills() {
   return (
     <section className="bg-light"  id="skill">
-    <div className="containers2 py-5">
+    <div className="containers py-5">
         <h4>Skills </h4> 
         <div className="row py-5">
             <div className=" d-flex justify-content-around py-2 flex-wrap text-dark">
@@ -19,7 +19,7 @@ export default function Skills() {
             </div>
         </div>         
 
-        <div className="row py-4 text-dark">
+        <div className="row py-4">
             <div className=" d-flex justify-content-evenly p-2 flex-wrap">
                 <h3><iconify-icon icon="logos:sequelize" width="50" height="50"></iconify-icon></h3>
                 <h3><iconify-icon icon="logos:express"></iconify-icon></h3>
